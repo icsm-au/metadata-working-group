@@ -26,7 +26,7 @@ This guidance is a point in time best practice guide and will be updated as requ
 
 ### ICSM Metadata Working Group 
 
-- Chair :  Irina Bastrokova
+- Chair :  Irina Bastrakova
 - Secretariat:  Graham Logan
 - ICSM Chair:  Simon Costello
 - ICSM Executive Officer: Lesley Waterhouse
