@@ -24,7 +24,7 @@ This document was compiled by [OpenWork Ltd (OWL)](http://openwork.nz) on behalf
 
 ### ICSM Metadata Working Group 
 
-- Chair:	Irina Bastrakova
+- Chair:	Irina Bastrokova
 - Secretariat:	Graham Logan
 - ICSM Chair:	Simon Costello
 - ICSM Executive Officer:	Lesley Waterhouse
