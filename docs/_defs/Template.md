@@ -41,7 +41,7 @@ guides: [Metadata, Services]
 - When should the information be captured? 
 - Where is it important, with what resource?}
 
-## ICSM Best Practice Recommendations 
+## Best Practice Recommendations 
 
 {Therefore - statement about what, why, who, when and how MDWG recommend this element be used}
 {A brief statement of MDWG guidance on use of this element}
