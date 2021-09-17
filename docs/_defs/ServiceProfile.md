@@ -37,11 +37,11 @@ To be complete in the description of the standards to which a spatial service ad
 
 When the service complies to a particular profile of a standard, it will suffice to complete the sibling *profile* element to the same degree.
 
-## ICSM Best Practice Recommendations 
+## Best Practice Recommendations 
 
 Therefore - when a service adheres to particular service standard profiles such profiles should be cited in this package. If a service adheres to a standard and not a profile of such it is preferable to document this in *[SV_ServiceIdentification.serviceStandard](./ServiceStandard).* If the service may support multiple profiles of the service standard, multiple entries of *Service Profile* can document such.
 
-#### Recommended Sub-Elements 
+### Recommended Sub-Elements 
 Follow the guidance in *[CI_Citation](./class-CI_Citation)* noting the following element usage:
 
 - **Title -** *(type - charStr)*[1..1] Mandatory - The well known name of the service standard
