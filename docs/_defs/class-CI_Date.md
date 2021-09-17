@@ -24,7 +24,7 @@ To support and maintain the recording of temporal elements in the metadata it is
 - MD_MaintenanceInformation.maintenanceDate
 - PT_LocaleContainer.date
 
-#### ICSM Recommended Sub-Elements
+#### Recommended Sub-Elements
 
 For class CI_OnlineResource 
 
@@ -47,7 +47,7 @@ For class CI_OnlineResource
   - released - the date that the resource shall be released for public access
   - distribution - date identifies when an instance of the resource was distributed
 
-## ICSM Best Practice Recommendations
+## Best Practice Recommendations
 
 Therefore - in order to provide the consistancy needed to avoid confusion for both machines and humans, it is recommended that all dates included in a metadata record implement the class CI_Date and follow the guidance provided by ISO and ICSM.
 
