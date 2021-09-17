@@ -36,7 +36,7 @@ According to the ISO model, a resource may exist in many states. Not all values 
 
 The resource may be data or service, *[MD_DataIdentification](./class-MD_DataIdentification)* or *[SV_ServiceIdentification](./ServiceIdentification)*.
 
-## ICSM Best Practice Recommendations
+## Best Practice Recommendations
 
 Therefore - The status of a resource is valuable information to those who may want to use it. It is recommended that the status field be populated and regularly updated as needed. At least one instance of this element should be populated in all metadata records.
 
