@@ -29,15 +29,7 @@ guides: [Metadata, Services]
 
 ### ISO Obligation
 
-- There may be zero to many [0..\*] *legalConstraints* recorded for the cited resource in the *[MD_DataIdentification](./class-MD_DataIdentification)* or [SV_ServiceIdentification](./ServiceIdentification) package of class *[MD_LegalConstraints](./class-MD_LegalConstraints)* in a metadata record,  
-
-### ICSM Best Practice Recommendations
-
-- The MDWG highly recommends populating this element `legalConstraints` to sufficient level to determine the legal rights, responsibilities and restrictions on a cited resource.
-
-#### Recommended Sub-Elements
-
-Follow the general guidance for [MD_LegalConstraints](./class-MD_LegalConstraints)
+There may be zero to many [0..\*] *legalConstraints* recorded for the cited resource in the *[MD_DataIdentification](./class-MD_DataIdentification)* or [SV_ServiceIdentification](./ServiceIdentification) package of class *[MD_LegalConstraints](./class-MD_LegalConstraints)* in a metadata record,  
 
 ## Discussion
 
@@ -61,9 +53,13 @@ Creative Commons is a copyright license. Licenses most appropriately apply to di
 
 Not a true license in itself, but a contractual agreement between the Copyright holder and other parties. It grants to these other parties rights responsibilities and restrictions on the use of a copyrighted resources
 
-## Recommendations
+## Best Practice Recommendations
 
-Therefore - it is important to capture all legal constraints that apply to a spatial resource. This should include licences, end user agreements, etc. If the resource is public domain, this should be cited appropriately. Many jurisdictions encourage the use of open data and Creative Commons license. This should be encouraged through the use of copyright licenses such as CC0 or CC By. Provide the user links to additional information about such constraints, there use and meaning. Also, it is important to document the holder of such rights and how to contact for more information.
+Therefore - it is highly recommended to populate `legalConstraints` to sufficient level to determine the legal rights, responsibilities and restrictions on a cited resource. It is important to capture all legal constraints that apply to a spatial resource. This should include licences, end user agreements, etc. If the resource is public domain, this should be cited appropriately. Many jurisdictions encourage the use of open data and Creative Commons license. This should be encouraged through the use of copyright licenses such as CC0 or CC By. Provide the user links to additional information about such constraints, there use and meaning. Also, it is important to document the holder of such rights and how to contact for more information.
+
+#### Recommended Sub-Elements
+
+Follow the general guidance for [MD_LegalConstraints](./class-MD_LegalConstraints)
 
 ### Crosswalk considerations
 
