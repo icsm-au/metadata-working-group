@@ -14,7 +14,7 @@ Building on previous work by the Metadata Working Group of the ICSM (MDWG), elem
 
 ### Elements as Patterns
 
-A design pattern is a general, reusable solution to a commonly occurring problem within a given context. In our case, these are the elements of ISO19115-1 metadata records. 
+A design pattern is a general, reusable solution to a commonly occurring problem within a given context. In our case, these are the elements of ISO 19115-1 metadata records. 
 
 #### Meaningful Name
 
@@ -62,17 +62,17 @@ Every definition file starts with a metadata section, surrounded by lines contai
 * `save_guide` - Runs some JavaScript to future MDWG pages to autoexpand the navigation for a particular guide.
 * `header` - Replaces the header text on this MDWG page, and any future ones the reader visits until they encounter another page with this set.
 
-#### ICSM Best Practice Recommendations
+#### Best Practice Recommendations
 
 Finally, we come to the recommendations. These are statements capture the what, why, who, when and how MDWG recommend this element be used. They provide an in-context summary of the MDWG guidance and the reasoning behind it.
 
 #### Crosswalks
 
-Included in the Recommendation section are crosswalk concerns when translating metadata between four different standards: ISO19139, Dublin core/CKAN/data.gov.au, DCAT, and RIF-CS. 
+Included in the Recommendation section are crosswalk concerns when translating metadata between four different standards: ISO 19139, Dublin core/CKAN/data.gov.au, DCAT, and RIF-CS. 
 
 ISO19139 is the previous standard that ISO19115-3 replaced. It is also the parent to widely used metadata profiles such as ANZLIC and MCP. Many geospatial practitioners currently have metadata in this standard and need to know how to migrate.
 
-Dublin core/CKAN/data.gov.au represents the way that top-level catalogues such as data.gov.au hold their metadata. These are more abbreviated formats focused on data discovery. Knowing how to share metadata with these platforms while not losing the important additional information held in ISO19115-1 is of high importance.
+Dublin core/CKAN/data.gov.au represents the way that top-level catalogues such as data.gov.au hold their metadata. These are more abbreviated formats focused on data discovery. Knowing how to share metadata with these platforms while not losing the important additional information held in ISO 19115-1 is of high importance.
 
 DCAT is a newer metadata standard developed by the W3C and based on linked data principles like RDF and formal ontologies. It can be thought of as a wrapper around other standards that make the sharing of metadata between standards easier through the use of well understood tags. The use of this standard continues to grow and is important for metadata exchange.
 
@@ -88,7 +88,7 @@ Each entry closes with an example section.  It is hoped that contents here grow 
 
 ### How To Use This Document
 
-An example of how this document might be used to provide guidance by an organisation on the use of ISO19115-1 is given below. This example is of how we might use this to provide a user support for capturing discovery level metadata as guided by the document “AS/NZS ISO 19115.1:2015 Amendment No. 1 appended”. The following was extracted from “Annex F Table F.1 — Metadata for the discovery of geographic datasets and series.”
+An example of how this document might be used to provide guidance by an organisation on the use of ISO 19115-1 is given below. This example is of how we might use this to provide a user support for capturing discovery level metadata as guided by the document “AS/NZS ISO 19115.1:2015 Amendment No. 1 appended”. The following was extracted from “Annex F Table F.1 — Metadata for the discovery of geographic datasets and series.”
 
 **Metadata for discovery of geographic datasets - guidance**
 
