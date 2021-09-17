@@ -29,7 +29,7 @@ It is a child of
 
 the following provides additional gauidance to [MD_Identification](./class-MD_Identification).
 
-#### MDWG Recomended -
+#### Recomended Attributes
 
 In addition to all the attributes of [MD_Identification](./class-MD_Identification), the additional recommended elements apply - 
 
@@ -46,7 +46,7 @@ In addition to all the attributes of [MD_Identification](./class-MD_Identificati
 
 Identification information about a resource is of high importance to document as this information strongly impacts on the ability of a user to asses the resource fitness to use. MD_DataIdentification instantiates the abstract class [MD_Identification](./class-MD_Identification)  for use with data resources.
 
-## ICSM Best Practice Recommendations
+## Best Practice Recommendations
 
 ## Related Classes
 
