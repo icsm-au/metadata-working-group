@@ -41,11 +41,15 @@ guides: [Metadata]
 
 - A metadata record should contain zero to many [0..\*] *resourceLineage* packages for the cited resource in the  *[MD_Metadata](./class-MD_Metadata)* package of class *[LI_Lineage](http://wiki.esipfed.org/index.php/LI_Lineage)*. 
 
-### ICSM Best Practice Recommendations
+## Discussion
 
-- Lineage information should be documented and include a descriptive statement of the resource provenance and its scope as an level from a hiearchy *[MD_Scope](./class-MD_Scope)*.
+Lineage metadata provides the user with information about the events, parameters, and source data which constructed the resource, and information about the responsible parties.  It provide a good understanding of the original intent and limitations of a resource. It also allows one to reproduce the process or avoid reproducing a process where unnecesary. Lineage information can help specialist users  avoid the problem of too heavily citing the same resource by not knowing their sources share common provenance. Lineage information can help custodians more intelligently manage their resources.
 
-#### Recommended Sub-Elements
+## Best Practice Recommendations
+
+Therefore - it is strongly recommended, that a linage statement is included with your metadata, particularly when the resource is authoritative or likely to be used by demanding specialist. Lineage information should be documented and include a descriptive statement of the resource provenance and its scope as an level from a hiearchy *[MD_Scope](./class-MD_Scope)*. The lineage of the resource to be captured in the metadata under resourceLineage. If appropriate include process step information for advanced users.
+
+### Recommended Sub-Elements
 
 - **statement -** *(type - charstr)* 0 to 1 - Recommended by MDWG. A general explanation of the data producer's knowledge about the lineage of a resource.
 - **source -** *(class - [LI_Source](http://wiki.esipfed.org/index.php/LI_Source))* 0 to many - information about the source resource used in creating the data specified by the scope
@@ -55,23 +59,16 @@ guides: [Metadata]
   - **extent -** *(class -  [EX_Extent](./ResourceExtent))* Information about the horizontal, vertical and temporal extent of the resource specified by the scope
   - **levelDescription -** *(class - [MD_ScopeDescription](http://wiki.esipfed.org/index.php/MD_ScopeDescription))* detailed description/listing of the items specified by the level
 
-## Discussion
-
-Lineage metadata provides the user with information about the events, parameters, and source data which constructed the resource, and information about the responsible parties.  It provide a good understanding of the original intent and limitations of a resource. It also allows one to reproduce the process or avoid reproducing a process where unnecesary. Lineage information can help specialist users  avoid the problem of too heavily citing the same resource by not knowing their sources share common provenance. Lineage information can help custodians more intelligently manage their resources.
-
 ### Outstanding Issues
 
 > **CORE ISSUE:**
 We have had insuficient conversation in MDWG about what we want from Lineage metadata to yet make strong recommendations.  The resource identified by this property presents a provenance record about its subject or anchor resource.  Need to discuss futher and reach agreement as to best practice approach for caturing provenance information.
 
-## Recommendations
-Therefore - it is strongly recommended, particularly when the resource is authoritative or likely to be used by demanding specialist, the the lineage of the resource be captured in the metadata under resourceLineage. A linage statement should be included with your metadata. If appropriate include process step information for advanced users.
-
 ### Crosswalk considerations
 
 <details>
 
-#### ISO19139
+#### ISO 19139
 
 New attributes were added to improve the description of *LI_Source* and *LI_ProcessStep*.
 
