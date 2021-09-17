@@ -48,7 +48,6 @@ In order to provide a standardised way of capturing information related to the v
 - SV_ServiceIdentification.serviceStandard
 - SV_CoupledResource.resourceReference
 - MD_Identifier.authority
-- 
 
 #### Recomended Attributes -
 
