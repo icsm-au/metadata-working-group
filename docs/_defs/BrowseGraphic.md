@@ -39,7 +39,7 @@ Geospatial professionals by nature, rely to a large extent on visual information
 
 >EXAMPLE - A dataset thumbnail image, an organisation logo, security constraint or citation graphic.
 
-## ICSM Best Practice Recommendations
+## Best Practice Recommendations
 
 Therefore - to provide a quick way for users to discover and identify the resource they need, provide a graphic overview of the resource. At a minimum, this should include a name and link to an image.
 
