@@ -34,7 +34,7 @@ guides: [Metadata, Services]
 There may be only one default locale for a resource identified in a metadata record.
 The element "otherLocale" can be use to provide information about alternatively used localised character strings
 
-## ICSM Best Practice Recommendations
+## Best Practice Recommendations
 
 Therefore - in order to meet ICSM good practice, in metadata for data resources, one default language of the resource should be captured if the resource contains language elements, and its character set encoding in `MD_DataInformation.defaultLocale`. For the users in our region, English should be the default value for `language` using the ISO 639-2, 3-alphabetic digits code "eng" and the character encoding should be *UTF8*. If the resource contains multiple languages, capture the dominant one in `defaultLocale` and populate the sibling element `otherLocale` with  information describing these additional languages in the same manner.
 
@@ -47,12 +47,11 @@ Therefore - in order to meet ICSM good practice, in metadata for data resources,
 - **otherLocale -** *[class - PT_Locale]* [0..\*] when a resource has information in additional languages
  - Follow the general guidance for [class - PT_Locale](./PT_Locale)
 
-
-### Crosswalk considerations
+## Crosswalk considerations
 
 <details>
 
-#### ISO19139
+#### ISO 19139
 
 MD_DataIdentification/language and MD_DataIdentification/characterSet moved to MD_DataIdentification/defaultLocale:PT_Locale - Make use of the newly added Language and character set localization package for defining local language and character set.
 
