@@ -32,7 +32,6 @@ Has all the attributes of [MD_Constraints](./class-MD_Constraints) plus the foll
 - **useConstraints -** *(codelist - [MD_RestrictionCode](./class-MD_Constraints#MD_RestrictionCode---codelist))* [0..\*] constraints applied to assure the protection of privacy or intellectual property, and any special restrictions or limitations or warnings on using the resource or metadata
 - **otherConstraints -** *(type - charStr)* [0..\*]  other restrictions and legal prerequisites for accessing and using the resource or metadata
 
-
 ## Discussion
 
 Information about constraints on the access and use of a resource or its metadata is of high importance to document as this information strongly impacts on the usability of the resource to the user. Constraints may be security (*MD_SecurityConstraints*), legal (*MD_LegalConstraints*) or other (*MD_Constraints*).
@@ -40,8 +39,6 @@ Information about constraints on the access and use of a resource or its metadat
 A restriction may be applicable to a particular aspect of the resource. In this case capture this scope in *constraintApplicationScope* using a value from *MD_Scope*
 
 Almost all created resources (including metadata) carry some legal rights, restrictions and responsibility regarding their access and use. For instance, in most jurisdictions, copyright is automatically granted to the creator of a creative work. Legal restrictions such as licences and end user agreements, need be documented for users and resource managers along with the identity of the holder of these rights. Each agency needs to develop consistant guidance on the use of such statement and share clear understanding of their meaning. This is often done by reference to a external body that manages the definitions of the legal constraints applied.
-
-
 
 ### Outstanding Issues
 
@@ -51,13 +48,13 @@ There is a need to gain greater consensus as to the general use of MD_LegalConst
 > Distribution Constraints
 Currently there are no clear methods to apply different legal constraints to different distributions. This may be an ISO issue to address. We should develop use cases.
 
-## ICSM Best Practice Recommendations
+## Best Practice Recommendations
 
 Therefore - it is important to capture all legal constraints that apply to a resource. This should include licences, end user agreements, etc. If the resource is public domain, this should be cited appropriately. Many juristrictions encourage the use of open data and Creative Commons license. This should be encouraged through the use of copyright licenses such as CC0 or CC By. Provide the user links to additional information about such constraints, there use and meaning. In addition, document the holder of such rights and how to contact for more information.
 
-### Crosswalk considerations
+## Crosswalk considerations
 
-#### ISO19139
+#### ISO 19139
 
 See guidance provided in [MD_Constraints](./class-MD_Constraints) 
 
@@ -68,7 +65,7 @@ See guidance provided in [MD_Constraints](./class-MD_Constraints)
 
 \pagebreak
 
-### UML diagrams
+## UML diagrams
 
 Recommended elements highlighted in yellow
 
