@@ -8,7 +8,7 @@ guides: [Metadata, Services]
 ---
 # class - MD_Metadata
 
-*In order to create consistent structured metadata to describe spatial resources, we need a schema to provide a structure and a class to hold it.  MD_Metadata provides this for ISO19115-1.*
+*In order to create consistent structured metadata to describe spatial resources, we need a schema to provide a structure and a class to hold it.  MD_Metadata provides this for ISO 19115-1.*
 
 - **Governance** -  *ISO*
 - **Metadata Type -** *structural*
@@ -20,7 +20,7 @@ guides: [Metadata, Services]
 
 ### Child packages
 
-#### ICSM recommended
+#### Recommended packages
 
 - **[resourceLineage -](./ResourceLineage)** *(class - Li_Lineage)* [0..\*]
 - **[referenceSystemInfo -](./SpatialReferenceSystem)** *(class - MD_ReferenceSystem)*
@@ -45,7 +45,7 @@ guides: [Metadata, Services]
 
 ### Atributes
 
-#### MDWG Recomended Attributes -
+#### Recomended Attributes
 
 - **[metadataIdentifier -](./MetadataIdentifier)** (*class - [MD_Identifier](./class-MD_Identifier)*) [0..1]
 - **[dateInfo -](./MetadataDate)** *(class - [CI_Date](./class-CI_Date))* [1..\*] 
@@ -62,20 +62,17 @@ guides: [Metadata, Services]
 - **otherLocale -** *(class - [PT_Locale](./PT_Locale))*[0..\*]
 - **alternativeMetadataReference -** *(class - [CI_Citation](./class-CI_Citation)* [0..\*]
   
-
 ## Discussion
 
 The MD_Metadata package defines the schema for describing the complete metadata about a resource and metadata about the metadata itself. It is composed through an aggregate of 12 additional metadata classes as shown above. The MD_Metadata class also contains attributes providing information about the metadata record itself. Those recommnded attributes are covered in other sections as cited above
 
-
-
-## ICSM Best Practice Recommendations 
+## Best Practice Recommendations 
 
 Therefore - it is recommended that all spatial metadata utilise the structure provided by the ISO19115-1 MD_Metadata class and follow the guidance provided. While ISO 19115-1 allows for such a metadata to describe more than one spatial resource, in order to reduce confusion and ease the integration with other metadata systems, it is recommended that each metadata record describes one and only one resource and that each resource have one metadata record of class MD_Metadata. 
 
 \pagebreak
 
-### UML diagrams
+## UML diagrams
 
 Recommended elements highlighted in yellow
 
