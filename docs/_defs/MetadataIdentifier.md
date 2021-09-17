@@ -31,10 +31,6 @@ guides: [Metadata, Services]
 
 - There should be zero or one [0..1] metadataIdentifier for the cited resource in the *[MD_Metadata](./class-MD_Metadata)* package of class *[MD_Identifier](./class-MD_Identifier)*.
 
-### Best Practice Recommendations
-
-Therefore - this element should be populated in all metadata records
-
 
 ## Discussion
 Every metadata record needs a unique identifier so as to provide certainty as to the identity of the record and to provide a primary key for linkages. This element should hold UUID, preferably in the form of a resolvable URI (either standalone or in combination with another element e.g. `<mcc:codespace>`). This provides the machine-readable (and human) ability to determine if this is the same or different to other metadata records. It is useful in machine to machine activities such as metadata harvesting. It is also at times useful to data managers and others to determine if a record is the same as another.
@@ -46,7 +42,7 @@ The equivalent of this field was recommended as mandatory in the previous ANZLIC
 
 ## Best Practice Recommendations
 
-Therefore - it is Highly Recommended that every metadata record should have one and only one metadata identifier (MD_Metadata > mdb:metadataIdentifier > MD_Identifier). The child element `<mcc:code>` should contain the persistent uuid for the metadata record. While the child element `<mcc:codespace>` should contain the reference URL path by which, when combined with the uuid, this metadata record can be retrieved. It is beneficial to populate other sibling elements as needed such as `<mcc:authority>` to indicated the authority that minted the uuid.
+Therefore - this element should be populated in all metadata records. It is Highly Recommended that every metadata record should have one and only one metadata identifier (MD_Metadata > mdb:metadataIdentifier > MD_Identifier). The child element `<mcc:code>` should contain the persistent uuid for the metadata record. While the child element `<mcc:codespace>` should contain the reference URL path by which, when combined with the uuid, this metadata record can be retrieved. It is beneficial to populate other sibling elements as needed such as `<mcc:authority>` to indicated the authority that minted the uuid.
 
 ### Recommended Sub-Elements
 From class *[MD_Identifier](./class-MD_Identifier)* 
