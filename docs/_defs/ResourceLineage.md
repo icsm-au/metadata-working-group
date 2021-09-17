@@ -59,12 +59,12 @@ Therefore - it is strongly recommended, that a linage statement is included with
   - **extent -** *(class -  [EX_Extent](./ResourceExtent))* Information about the horizontal, vertical and temporal extent of the resource specified by the scope
   - **levelDescription -** *(class - [MD_ScopeDescription](http://wiki.esipfed.org/index.php/MD_ScopeDescription))* detailed description/listing of the items specified by the level
 
-### Outstanding Issues
+## Outstanding Issues
 
 > **CORE ISSUE:**
 We have had insuficient conversation in MDWG about what we want from Lineage metadata to yet make strong recommendations.  The resource identified by this property presents a provenance record about its subject or anchor resource.  Need to discuss futher and reach agreement as to best practice approach for caturing provenance information.
 
-### Crosswalk considerations
+## Crosswalk considerations
 
 <details>
 
