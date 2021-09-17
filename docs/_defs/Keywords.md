@@ -31,7 +31,7 @@ guides: [Metadata, Services]
 
 - There can be zero or many [0..\*] descriptive keywords for the cited resource in the  *[MD_DataIdentification](./class-MD_DataIdentification)* package of class *[MD_Keywords](http://wiki.esipfed.org/index.php/MD_Keywords)* in a metadata record.
 
-### ICSM Best Practice Recommendations
+### Best Practice Recommendations
 
 Therefore - it is highly recommended that multiple keywords should be selected from a referenced thesaurus present in a metadata record for a spatial resource.
 
