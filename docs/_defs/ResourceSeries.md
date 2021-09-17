@@ -27,25 +27,23 @@ guides: [Metadata, Services]
 
 - There may be one  [0..1] *series* package for the cited resource in the  *[MD_DataIdentification.citation](./ResourceCitation)* package  of class *[CI_Series](http://wiki.esipfed.org/index.php/CI_Series)* in a metadata record.
 
-###  ICSM Best Practice Recommendations
-
-- This element should be populated in all metadata records where the resource is one part of a series.
-
-#### Recommended Sub Elements
-
-From class *[CI_Series](http://wiki.esipfed.org/index.php/CI_Series)*
-
-- **name -** *(type - charStr)* [0..1] name of the series, or aggregate resource, of which the resource is a part
-- **issueIdentification -**  *(type - charStr)*  [0..1]  information identifying the issue of the series
-- **page -** *(type - charStr)* [0..1] Mostly not recommended as not common. Details on which pages of the publication the article was published
-
 ## Discussion
 
 The content of all three *CI_Series* elements are free text and optional. How one would link back to the series metadata is unclear. It could be captured in "Name" as a resolvable URI. Perhaps through the Parent Metadata element? What is the relation between "Series" and "Parent Metadata"
 
 It is conceivable that there may be more than one series to which a dataset may belong. The dataset may be part of a time series while also part of a thematic series. But, by the standard, a resource may only belong to one cited series. Guidance needs to be developed for users on this topic.
 
-## Recommendations
+##  Best Practice Recommendations
+
+Therefore - This element should be populated in all metadata records where the resource is one part of a series.
+
+### Recommended Sub Elements
+
+From class *[CI_Series](http://wiki.esipfed.org/index.php/CI_Series)*
+
+- **name -** *(type - charStr)* [0..1] name of the series, or aggregate resource, of which the resource is a part
+- **issueIdentification -**  *(type - charStr)*  [0..1]  information identifying the issue of the series
+- **page -** *(type - charStr)* [0..1] Mostly not recommended as not common. Details on which pages of the publication the article was published
 
 **Series** has proven to be a difficult element to pin down for a number of reasons. Below is a list of issues that should be included in good practice guidance on this element:
 
@@ -60,7 +58,7 @@ If series information is to be captured, the minimum information needed would be
 
 It may be better to use other elements such as `parentMetadata` or `associatedResource` to capture series type relationships.
 
-### Crosswalk considerations
+## Crosswalk considerations
 
 <details>
 
