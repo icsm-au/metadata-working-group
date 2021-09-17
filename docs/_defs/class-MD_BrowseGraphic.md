@@ -38,16 +38,16 @@ In a metadata record there should be zero to many {0..*] graphicOverview package
 
 Geospatial professionals by nature, rely to a large extent on visual information to gain understanding of resources. Browse graphics provide in the metadata a way to communicate with users visually.
 
-## ICSM Best Practice Recommendations
+## Best Practice Recommendations
 
 Therefore - in order to provide a quick way for users to discover and identify the resource they need, provide a graphic overview in the metadata.  At a minimum this should include a name and link to the image.
 
 
-### Crosswalk considerations
+## Crosswalk considerations
 
 <details>
 
-#### ISO19139
+#### ISO 19139
 
 browseGraphic is a new package in iso19115-1. New elements include:
 
