@@ -115,11 +115,11 @@ The use of the new `partyIdentifier` element added in the 2018 ammendment to the
 
 > Note BC 18-7 - MDWG may wish to further standardise the use of CI_Responsibility
 
-### Crosswalk considerations
+## Crosswalk considerations
 
 <details>
 
-#### ISO19139
+#### ISO 19139
 
 In iso19115-1 Data type CI_ResponsibleParty (iso19115:2004) changed to type CI_Responsibility. The CI_ResponsibleParty was restructured in order to allow more flexible associations of individuals, organisations, and roles.
 The CI_Responsibility/extent element was added in order to allow specificationof the spatial and temporal extent of a role.
