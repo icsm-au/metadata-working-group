@@ -43,7 +43,7 @@ It is a child of
 
 Identification information about a resource is of high importance to document as this information strongly impacts on the ability of a user to asses the resource fitness to use. MD_DataIdentification instantiates the abstract class [MD_Identification](./class-MD_Identification)  for use with data resources.
 
-## ICSM Best Practice Recommendations
+## Best Practice Recommendations
 
 Therefore - to clearly understand what resource a metadata record is describing, there should be one and only one [1..1] MD_Identification package in a metadata record. For dataset metadata, this must be expressed as an MD_DataIdentification instance. The Data Indentifaction package contains several sub-packages and sub-elements. To ease the common use of such metadata, it is important that the use of these sub-packages and sub-elements be standardised.
 
