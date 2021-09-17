@@ -41,7 +41,7 @@ guides: [Metadata, Services]
 
 - There should be zero to many [0..\*] *resourceMaintenance* packages for the cited resource in the  *[MD_DataIdentification](./class-MD_DataIdentification)* package of class *[MD_MaintenanceInformation](http://wiki.esipfed.org/index.php/MD_MaintenanceInformation)* in a metadata record.
 
-### ICSM Best Practice Recommendations
+### Best Practice Recommendations
 
 Therefore - maintenence information about a citedresource should be documented. This should include descriptions of the update and maintenance frequency and scope.
 
