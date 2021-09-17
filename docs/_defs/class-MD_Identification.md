@@ -38,7 +38,7 @@ It is a child of
 - **Data Identification -** *(class MD_DataIdentification)* > ?create Entry?
 - **Service Identification -** *(class SV_ServiceIdentification)* > To Be Completed at later date
 
-#### MDWG recommended MD_Identification packages
+#### Recommended MD_Identification packages
 
 One of 
 
@@ -70,7 +70,7 @@ Plus the following:
 
 ### Atributes and packages
 
-#### MDWG Recommended
+#### Recommended Attributes
 
 Click on the attribute name for guidance:
 
@@ -97,7 +97,7 @@ Click on the attribute name for guidance:
 
 Identification information about a resource is of high importance to document as this information strongly impacts on the ability of a user to asses the resource fitness to use. The **identificationInfo** package must be of either type *data*  (*MD_DataIdentification*) or *service* (*SV_ServiceIdentification*).
 
-## ICSM Best Practice Recommendations 
+## Best Practice Recommendations 
 
 Therefore - there must be at least one (and usually just one) `identificationInfo` packages in a metadata record that contains the substantive  information about a cited resource.
 
