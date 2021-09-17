@@ -49,7 +49,7 @@ The values in the MD_ScopeCode list are intentionally general and details of the
 Typically, the subject will be represented using keywords, key phrases, or classification codes. Recommended best practice is to use a controlled vocabulary.
 
 
-## ICSM Best Practice Recommendations
+## Best Practice Recommendations
 
 Therefore - in order to provide top level categorisation of entries in a catalogue, it is recommended that `metadataScope` be populated.  The default value of `MD_MetadataScope.resourceScope` should be *dataset*. When the value of `resourceScope` is other than dataset, `MD_MetadataScope.name` must be populated.
 
