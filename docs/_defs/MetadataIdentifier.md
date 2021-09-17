@@ -44,7 +44,7 @@ This identifier must never change, irrespective of where that metadata record is
 The equivalent of this field was recommended as mandatory in the previous ANZLIC Standard. Common practice is to record a UUID in this field.
 
 
-## ICSM Recommendations
+## Best Practice Recommendations
 
 Therefore - it is Highly Recommended that every metadata record should have one and only one metadata identifier (MD_Metadata > mdb:metadataIdentifier > MD_Identifier). The child element `<mcc:code>` should contain the persistent uuid for the metadata record. While the child element `<mcc:codespace>` should contain the reference URL path by which, when combined with the uuid, this metadata record can be retrieved. It is beneficial to populate other sibling elements as needed such as `<mcc:authority>` to indicated the authority that minted the uuid.
 
