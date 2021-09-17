@@ -69,7 +69,6 @@ MD_Constraints may be expressed as:
 
 - **[MD_LegalConstraints](./class-MD_LegalConstraints)**
 - **[MD_SecurityConstraints](./class-MD_SecurityConstraints)**
- 
 
 ## Discussion
 
@@ -85,13 +84,13 @@ There is a need to gain greater consensus as to the general use of MD_Constraint
 > Distribution Constraints
 Currently there are no clear methods to apply different constraints to different distributions. This may be an ISO issue to address. We should develop use cases.
 
-## ICSM Best Practice Recommendations
+## Best Practice Recommendations
 
-### Crosswalk considerations
+## Crosswalk considerations
 
 <details>
 
-#### ISO19139
+#### ISO 19139
 
 - *MD_BrowseGraphic.imageConstraint* - This new element was added in order to allow the specification of constraints on a browse graphic associated with a resource.
 - *MD_Constraints.constraintApplicationScope* -  This new element was added in order to allow description of constraints on a resource that vary in space and/or time and/or level.
