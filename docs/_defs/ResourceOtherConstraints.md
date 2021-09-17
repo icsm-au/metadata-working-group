@@ -30,11 +30,14 @@ guides: [Metadata, Services]
 
 - There should be zero to many [0..\*] *resourceConstraints* recorded for the cited resource in the *[MD_DataIdentification](./class-MD_DataIdentification)* or [SV_ServiceIdentification](./ServiceIdentification) package of class [MD_Constraints](./class-MD_Constraints) in a metadata record,
 
-### ICSM Best Practice Recommendations
+## Discussion
 
-- The MDWG recommends populating `resourceConstraints` with `useLimitation`, `releasability` and other constraint information to sufficient level to determine the limits and restrictions on a cited resource.
+Almost all spatial resources carry some rights, restrictions and responsibility regarding their access and use. These may be legal, security or other. These must be recorded and shared with existing and potential users. Each agency needs to develop consistant guidance on the use of such statements and share clear understanding of their meaning. This is often done by reference to a external body that manages the definitions of the constraints applied.
 
-#### Recommended Sub-Elements
+## Best Practice Recommendations
+Therefore - it is recommended populating `resourceConstraints` with `useLimitation`, `releasability` and other constraint information to sufficient level to determine the limits and restrictions on a cited resource. For users to understand the administrative constraints applied to a cited resource, the details of these constraints, together with sufficient information and linkages to provide access to further information as to the deeper meaning and implications of such constraints, needs to be capture in the metadata about the resource.
+
+### Recommended Sub-Elements
 
 - **useLimitation -** (*type - charstr*) [0..\*] limitation(s) affecting the fitness for use of the resource or metadata. Example, "not to be used for navigation". If legal by nature, use as parent subtype [MD_LegalConstraints](./ResourceLegalConstraints). If security by nature, use as parent subtype [MD_SecurityConstraints](./MetadataSecurityConstraints). Otherwise, use MD_Constraint.
 - **reference -** *(class - [CI_Citation](./class-CI_Citation))* [0..\*] citation/URL for the limitation or constraint, eg. copyright statement, license agreement, security classification system, etc.
@@ -48,19 +51,11 @@ guides: [Metadata, Services]
  - **disseminationConstraints -** *(codelist - [MD_RestrictionCode](./class-MD_Constraints#MD_RestrictionCode---codelist))* [0..\*] component in determining releasability. A Limitation placed upon the access or use of the data
  - **responsibleParty -** *(class [CI_Responsibility](./class-CI_Responsibility))* [0..\*] contact information for those responsible for managing the security of the cited resource.
 
-## Discussion
-
-Almost all spatial resources carry some rights, restrictions and responsibility regarding their access and use. These may be legal, security or other. These must be recorded and shared with existing and potential users. Each agency needs to develop consistant guidance on the use of such statements and share clear understanding of their meaning. This is often done by reference to a external body that manages the definitions of the constraints applied.
-
-## Recommendations
-
-Therefore - for users to understand the administrative constraints applied to a cited resource, the details of these constraints, together with sufficient information and linkages to provide access to further information as to the deeper meaning and implications of such constraints, needs to be capture in the metadata about the resource.
-
-### Crosswalk considerations
+## Crosswalk considerations
 
 <details>
 
-#### ISO19139
+#### ISO 19139
 
 See guidance provided in *[MD_Constraints](./class-MD_Constraints)*
 
