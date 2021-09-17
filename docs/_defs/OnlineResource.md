@@ -50,7 +50,7 @@ This element may also be used when describe elements of Datset metadata not cove
   - browsing - online browsing provided
   - fileAccess - online file access provided
 
-## ICSM Best Practice Recommendations
+## Best Practice Recommendations
 
 Therefore - when describing an service, provide an authoritative linkage to this service or its landing page in
 
