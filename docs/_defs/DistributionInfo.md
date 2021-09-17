@@ -20,7 +20,7 @@ header-includes:
 guides: [Metadata, Services]
 ---
 #  Distribution Info ★★★★★
-*Commonly the most important purpose of a catalogue is to provide information by which one can access the resources described.  In ISO19115-1 the distrubutionInfo package contains and provides this information describing both online and offline access methods, contacts, and instructions.*
+*Commonly the most important purpose of a catalogue is to provide information by which one can access the resources described.  In ISO 19115-1 the distrubutionInfo package contains and provides this information describing both online and offline access methods, contacts, and instructions.*
 
 | | |
 | --- | --- |
@@ -68,7 +68,7 @@ Provide as many distribution options as is useful.  Capture of rarely used optio
 It is recommended that the format details are specific for the distribution. If two different version of the same format are available they be documented as two different formats.
 When using a common distribution service that provides all data in a set number of formats, consider using `MD_Distribution.distributor>MD_Distributor.distributorFormat`.
 
-### ICSM Recommended Sub-Elements
+### Recommended Sub-Elements
 
 - **description -** *(type - charStr)*[0..1] (highly recommended when more than one distributionInfo package is present) a brief description of a set of distribution options 
 - **distributor -** *(class - [MD_Distributor](http://wiki.esipfed.org/index.php/MD_Distributor))* [0..*] Name, contact information, and role of the organisation from which this distribution of this cited resource may be obtained.
