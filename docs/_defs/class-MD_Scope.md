@@ -26,7 +26,7 @@ guides: [Metadata, Services]
 - LI_Source.scope
 - MD_MaintenanceInformation.maintenanceScope
 
-### Attributes -
+### Attributes
 
 - **level -** *(codelist - MD_ScopeCode)* [1..1] Mandatory when using MD_Scope - target resource covered
 - **extent -** *(class - [EX_Extent](./ResourceExtent))* [0..\*] Information about the horizontal, vertical and temporal extent of the resource specified by the scope
@@ -84,7 +84,7 @@ Information about scope of a citation of an aspect of a resource or its maintena
 
 The MD_Scope is used to describe the breadth and or type of the resource that a metadata record or class describes. It includes a MD_ScopeCode as a brief indicator of the scope which can be useful in search and presentation applications and a MD_ScopeDescription in order to provide more detail. The values in the MD_ScopeCode list are intentionally general and details of their application are left to the data provider. In order to foster interoperability, the usage of the scope codes should be carefully documented in any community of practice. Clause E.5 outlines possible applications of codes from the MD_ScopeCode codelist and related codes included in ISO/TS 19139 as part of the MX_ScopeCode list. These examples are meant to provide reasonable starting points and are certainly not exhaustive.
 
-## ICSM Best Practice Recommendations
+## Best Practice Recommendations
 
 ### Crosswalk considerations
 
