@@ -1,2 +1,2 @@
 # mdwg
-Best Practice documentation for the use of ISO 19115-3.2018 metadata standard for ANZLIC/ICSM
+Best Practice documentation for the use of ISO19115-3.2018 metadata standard for ANZLIC/ICSM
